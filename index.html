@@ -1,42 +1,84 @@
-<html>
-	<head>
-		<link href="style.css" rel="stylesheet">
-		<title>Your Name resume</title>
-	</head>
+<!DOCTYPE html>
+<html lang="en">
 
-	<body>
-		<header id="header">
-			<!-- resume header with your name and title -->
-			<h1><b>YOUR</b> NAME</h1>
-			<hr>
-			YOUR TITLE (EX: SOFTWARE ENGINEERING STUDENT)
-			<hr>
-		</header>
-		<main>
-			<article id="mainLeft">
-				<section>
-					<h2>CONTACT</h2>
-					<!-- contact info including social media -->
-				</section>
-				<section>
-					<h2>SKILLS</h2>
-					<!-- your skills AKA "buzzwords" -->
-				</section>
-				<section>
-					<h2>EDUCATION</h2>
-					<!-- your education -->
-				</section>            
-			</article>
-			<article id="mainRight">
-				<section>
-					<h2>ABOUT</h2>
-					<!-- about you -->
-				</section>
-				<section>
-					<h2>WORK EXPERIENCE</h2>
-					<!-- your work experience -->
-				</section>
-			</article>
-		</main>
-	</body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find a bug</title>
+</head>
+
+
+<body>
+  <style id="jsbin-css">
+    style[contenteditable] {
+      display: block;
+      font-family: sans-serif;
+      text-shadow: none;
+      border: 1px solid hsl(0, 0%, 80%);
+      border-radius: 7px;
+      padding: 1em;
+      white-space: pre;
+      margin: 0 20px 20px;
+      outline: 0px solid transparent;
+      -webkit-user-modify: read-write-plaintext-only;
+      -mz-user-modify: read-write-plaintext-only;
+    }
+
+
+    #simu123 h1,
+    #simu123 h2 {
+      font-size: 1em;
+      font-weight: unset;
+
+
+    }
+  </style>
+
+
+
+
+  <style contenteditable="" id="conteneur">
+    article p {
+      border: 1px solid red;
+    }
+  </style>
+  <br />
+  <div>Testez dans l'éditeur CSS ci-dessus la régle</div>
+  <h3 style="text-align: left;">&nbsp; &nbsp;<span style="background-color: black; color: white;"> article
+      p:nth-child(4) {
+      border : 1px solid;
+      }
+    </span></h3>
+  <div>🤡 Expliquez le résultat !</div>
+  <br />
+  <article id="simu123">&lt;article&gt;
+    <p id="st" title="Strophe1">
+      &lt;p title="Strophe1" id="st"&gt;P1&lt;/p&gt;</p>
+    <header>&lt;header&gt;
+      <h1>
+        &lt;h1&gt;&lt;/h1&gt;</h1>
+      <h2>
+        &lt;h2&gt;&lt;/h2&gt;</h2>
+
+
+
+
+      &lt;/header&gt;
+    </header>
+    <br />
+    <p class="refrain">
+      &lt;p class="refrain"&gt;P2&lt;/p&gt;</p>
+    <p id="str" title="Strophe4">
+      &lt;p title="Strophe4" id="str"&gt;P3&lt;/p&gt;</p>
+    <p class="refrain" id="ref4">
+      &lt;p class="refrain" id="ref4"&gt;P4&lt;/p&gt;</p>
+    <br />
+    <footer>&lt;footer&gt; date (1880 - 1918) &lt;/footer&gt;</footer>
+    &lt;/article&gt;
+  </article>
+</body>
+
+
 </html>
